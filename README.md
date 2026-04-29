@@ -213,7 +213,7 @@ A textual catalog (subject to revision; tracks the deployed image):
 - **RAG:** [RagFlow](https://ragflow.io/) · [LlamaIndex](https://www.llamaindex.ai/) · [Haystack](https://haystack.deepset.ai/)
 - **MCP management:** [Hatch](https://hatch.readthedocs.io/en/latest/)
 - **Agent frameworks:** [LangGraph](https://langchain-ai.github.io/langgraph/) · [Pydantic AI](https://ai.pydantic.dev/) · [NeMo Guardrails](https://docs.nvidia.com/nemo/guardrails/latest/) ·
-  [Inspect AI](https://inspect.aisi.org.uk) · [Open Agent Platform](https://github.com/langchain-ai/open-agent-platform) · LS-DX Co-Scientist (drug discovery)
+  [Inspect AI](https://inspect.aisi.org.uk) · [LangFlow](https://www.langflow.org) · LS-DX Co-Scientist (drug discovery)
 
 ### AI for Science Tooling
 
