@@ -172,47 +172,47 @@ A textual catalog (subject to revision; tracks the deployed image):
 
 ### OS / Runtime
 
-- Rocky Linux 10 (ARM / aarch64)
-- Apptainer (HPC containers) · Podman (service containers)
-- NVIDIA driver · CUDA Toolkit (latest stable)
-- CUDA-aware MPI (Open MPI)
-- Environment Modules
+- [Rocky Linux 10](https://rockylinux.org/) (ARM / aarch64)
+- [Apptainer](https://apptainer.org/) (HPC containers) · [Podman](https://podman.io/) (service containers)
+- Latest NVIDIA drivers and [CUDA Toolkit](https://developer.nvidia.com/cuda-toolkit) (latest stable)
+- [Open MPI](https://www.open-mpi.org/) · [CUDA-aware MPI](https://docs.open-mpi.org/en/v5.0.x/tuning-apps/networking/cuda.html)
+- [Environment Modules](https://modules.readthedocs.io/)
 
 ### GPU Compute Libraries
 
-- CUDA (parallel compute) · cuDNN (DL primitives)
-- cuBLAS (dense LA) · cuSPARSE (sparse LA) · cuFFT (FFT)
-- NCCL (multi-GPU collectives) · TensorRT (inference)
-- CUTLASS (GEMM kernels) · cuDSS (direct sparse solvers)
+- [CUDA](https://developer.nvidia.com/cuda-toolkit) (parallel compute) · [cuDNN](https://developer.nvidia.com/cudnn) (DL primitives)
+- [cuBLAS](https://developer.nvidia.com/cublas) (dense LA) · [cuSPARSE](https://developer.nvidia.com/cusparse) (sparse LA) · [cuFFT](https://developer.nvidia.com/cufft) (FFT)
+- [NCCL](https://developer.nvidia.com/nccl) (multi-GPU collectives) · [TensorRT](https://developer.nvidia.com/tensorrt) (inference)
+- [CUTLASS](https://docs.nvidia.com/cutlass/latest/) (GEMM kernels) · [cuDSS](https://developer.nvidia.com/cudss) (direct sparse solvers)
 
 ### Deep Learning Frameworks
 
-- **PyTorch** (reference framework) · **DeepSpeed** (ZeRO-optimized training)
-- Megatron-LM (tensor / pipeline parallel)
-- NVIDIA NeMo (LLM · SFT · RLHF)
-- Hugging Face Transformers / Accelerate (model hub · distributed training)
-- JAX / Flax (autodiff for science)
+- **[PyTorch](https://pytorch.org/)** (reference framework) · **[DeepSpeed](https://www.deepspeed.ai/)** (ZeRO-optimized training)
+- [Megatron-LM](https://github.com/NVIDIA/Megatron-LM) (tensor / pipeline parallel)
+- [NVIDIA NeMo](https://docs.nvidia.com/nemo-framework/) (LLM · SFT · RLHF)
+- Hugging Face [Transformers](https://huggingface.co/docs/transformers/) / [Accelerate](https://huggingface.co/docs/accelerate/) (model hub · distributed training)
+- [JAX](https://jax.readthedocs.io/) / [Flax](https://flax.readthedocs.io/) (autodiff for science)
 
 ### LLM Inference Services
 
-- **vLLM** (PagedAttention · continuous batching)
-- TensorRT-LLM · NVIDIA Triton Inference Server
-- NVIDIA Dynamo (distributed orchestration)
-- NVIDIA NIM (pre-optimized microservices)
+- **[vLLM](https://docs.vllm.ai/)** (PagedAttention · continuous batching)
+- [TensorRT-LLM](https://nvidia.github.io/TensorRT-LLM/) · [NVIDIA Triton Inference Server](https://developer.nvidia.com/triton-inference-server)
+- [NVIDIA Dynamo](https://developer.nvidia.com/dynamo) (distributed orchestration)
+- [NVIDIA NIM](https://docs.nvidia.com/nim) (pre-optimized microservices)
 
 ### Available AI Models *(initial catalog — periodically refreshed)*
 
-- **LLMs:** Llama 4 · Qwen 3.6 · Nemotron · DeepSeek-V4 ·
-  Gemma 4 · Kimi K2.6 · Mistral Large 3 · GLM-5.1 · …
-- **Scientific / domain-specific:** NVIDIA BioNeMo (drug · molecule) ·
-  NVIDIA Earth-2 (climate · weather) · NVIDIA NIM catalog (domain-tuned)
+- **LLMs:** [Llama 4](https://huggingface.co/meta-llama) · [Qwen 3.6](https://huggingface.co/Qwen) · [Nemotron](https://huggingface.co/nvidia) · [DeepSeek-V4](https://huggingface.co/deepseek-ai) ·
+  [Gemma 4](https://huggingface.co/google) · [Kimi K2.6](https://huggingface.co/moonshotai) · [Mistral Large 3](https://huggingface.co/mistralai) · [GLM-5.1](https://huggingface.co/zai-org) · …
+- **Scientific / domain-specific:** [NVIDIA BioNeMo](https://docs.nvidia.com/bionemo-framework/latest/) (drug · molecule) ·
+  [NVIDIA Earth-2](https://www.nvidia.com/en-us/high-performance-computing/earth-2/) (climate · weather) · [NVIDIA NIM catalog](https://build.nvidia.com/models) (domain-tuned)
 
 ### RAG · Agent Foundation
 
 - **Gateway · RAG:** [RiVault](https://github.com/RIKEN-RCCS/RiVault)
-  (RIKEN LLM gateway) · RagFlow · LlamaIndex · Haystack · Hatch (MCP tools)
-- **Agent frameworks:** LangGraph · Pydantic AI · NeMo Guardrails ·
-  Inspect AI · Open Agent Platform · LS-DX Co-Scientist (drug discovery)
+  (RIKEN LLM gateway) · [RagFlow](https://ragflow.io/) · [LlamaIndex](https://www.llamaindex.ai/) · [Haystack](https://haystack.deepset.ai/) · [Hatch](https://hatch.readthedocs.io/en/latest/)
+- **Agent frameworks:** [LangGraph](https://langchain-ai.github.io/langgraph/) · [Pydantic AI](https://ai.pydantic.dev/) · [NeMo Guardrails](https://docs.nvidia.com/nemo/guardrails/latest/) ·
+  [Inspect AI](https://inspect.aisi.org.uk) · [Open Agent Platform](https://github.com/langchain-ai/open-agent-platform) · LS-DX Co-Scientist (drug discovery)
 
 ### AI for Science Tooling
 
