@@ -268,9 +268,9 @@ architecture, access methods, and getting-started instructions.
 ## Support / Contact
 
 - E-mail: `rccs-ai4s-support@ml.riken.jp`
-- Issue tracker: this repository's
+- ~~Issue tracker: this repository's
   [Issues](https://github.com/RIKEN-RCCS/Rikyu/issues)
-  (please do not file confidential information here).
+  (please do not file confidential information here).~~ (use above Email for now)
 
 ---
 
@@ -283,4 +283,4 @@ architecture, access methods, and getting-started instructions.
 
 ---
 
-_Last updated: 2026-04-29._
+_Last updated: 2026-05-15._
